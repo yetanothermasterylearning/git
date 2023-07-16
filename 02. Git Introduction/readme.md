@@ -19,10 +19,10 @@
 ![Google Drive Folder](https://github.com/yetanothermasterylearning/git/blob/main/02.%20Git%20Introduction/Pictures/google_drive_folder.png)
 - upload your image or video files to Google Drive Folder
 - create a sharable link
-![Google Drive link](https://github.com/yetanothermasterylearning/Core-Java/blob/main/02.%20Git%20Introduction/Pictures/google_drive_folder_link.png)
+![Google Drive link](https://github.com/yetanothermasterylearning/git/blob/main/02.%20Git%20Introduction/Pictures/google_drive_folder_link.png)
 - provide access(operations) permissions
 
-> Github is a internet based code hosting platform for version control and collaboration.
+> [Github](https://github.com/) is a internet based code hosting platform for version control and collaboration.
 - Similar way, you create a project and initialize version control system(here it's git)
 - create a GitHub repo (repo is a placeholder/folder)
 - upload your project files to GitHub repo
@@ -40,6 +40,6 @@
 #### Commit ####
 - A point for file changes, like a milestone marker on the road
 #### Push and Pull ####
-- ![Push and Pull](https://github.com/yetanothermasterylearning/Core-Java/blob/main/02.%20Git%20Introduction/Pictures/push_pull.png)
+- ![Push and Pull](https://github.com/yetanothermasterylearning/git/blob/main/02.%20Git%20Introduction/Pictures/push_pull.png)
 - Push is an operation to move the commit changes from the local to the remote repository
 - Pull is an operation to update commit changes from the remote to the local repository
