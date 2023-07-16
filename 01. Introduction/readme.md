@@ -18,9 +18,9 @@
 
 - Distributed Version Control Systems (DVCS): each developer has a complete copy of the codebase, including its full history, on their local machine. This allows for more decentralized and independent development. Developers can commit changes locally and synchronize them with other repositories when needed. 
 - e.g: Git, Mercurial.
-![Version Control System](https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/version_control_system_2.png)
-- ![Distributed Version Control Systems](https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/dvcs.png)
+![Distributed Version Control Systems](https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/dvcs.png)
 
 ### What is Git? ###
 - As metnioned previously, [Git](https://en.wikipedia.org/wiki/Git) is a Distributed Version Control System. Git was originally authored by Linus Torvalds. 
 - It become the most widely used version control system due to its distributed nature, speed, and powerful features.
+![git_icon](https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/git_icon.png)
