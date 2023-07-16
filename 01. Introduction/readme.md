@@ -21,6 +21,6 @@
 
 ![Distributed Version Control Systems](https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/dvcs.png)
 
-### What is Git? ### <img src="https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/git_icon.png" width="30px">
+### What is Git? <img src="https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/git_icon.png" width="30px">
 - As metnioned previously, [Git](https://en.wikipedia.org/wiki/Git) is a Distributed Version Control System. Git was originally authored by Linus Torvalds. 
 - It become the most widely used version control system due to its distributed nature, speed, and powerful features.
