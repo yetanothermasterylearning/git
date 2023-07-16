@@ -4,12 +4,9 @@
     - What is a Version Control System?
     - Why do we need a Version Control System?
     - What are the different version control systems?
+- [Git Introduction](https://github.com/yetanothermasterylearning/git/tree/main/02.%20Git%20Introduction)
     - What is Git?
-- [Basic Concepts](https://github.com/yetanothermasterylearning/git/tree/main/02.%20Basic%20Concepts)
     - Layman's terms example
-    - Types of version control systems
-        - Central repository version control system
-        - Distributed version control system
     - Git terminology
         - Repository
         - Commit

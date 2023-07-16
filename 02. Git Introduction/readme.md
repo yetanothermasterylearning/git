@@ -19,17 +19,6 @@
 - create a Github(sharable) link
 - provide access(operations) permission to edit the files or upload new files
 
-### Types of version control systems? ###
-#### Centralized Version Control Systems (CVCS) ####
-- a central server that stores the entire codebase and version history. Developers check out files from the central repository, make changes locally, and then commit the changes back to the server. 
-- Best suited for projects which run on a Datacenter
-- e.g: Concurrent Versions System (CVS), Apache Subversion (SVN).
-
-#### Distributed Version Control Systems (DVCS) ####
-- each developer has a complete copy of the codebase, including its full history, on their local machine. This allows for more decentralized and independent development. Developers can commit changes locally and synchronize them with other repositories when needed. 
-- e.g: Git, Mercurial.
-
-
 ### Git terminology ###
 #### Repository ####
 - It's like a folder contains a project's files and meta data like file's version history
