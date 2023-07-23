@@ -1,5 +1,7 @@
 ## Environment Setup ##
 
+![git overview pic](https://github.com/yetanothermasterylearning/git/blob/main/03.%20Environment%20Setup/Pictures/git_overview_pic.png)
+
 ### Git Installation Setup ###
 - Git installation
     - [Windows](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup#windows)
