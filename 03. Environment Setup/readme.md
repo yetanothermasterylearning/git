@@ -3,8 +3,8 @@
 ### Git Installation Setup ###
 - Git installation
     - [Windows](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup#windows)
-    - [Mac OS]()
-    - [Linux OS]()
+    - [Mac OS](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup#mac-os)
+    - [Linux OS](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup#linux-os)
 - Create GitHub account
 - Git Configuration file
 - ssh configuration for authentication and authorization
