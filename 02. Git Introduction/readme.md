@@ -40,6 +40,7 @@
 #### Commit ####
 - A point for file changes, like a milestone marker on the road
 #### Push and Pull ####
-- ![Push and Pull](https://github.com/yetanothermasterylearning/git/blob/main/02.%20Git%20Introduction/Pictures/push_pull.png)
 - Push is an operation to move the commit changes from the local to the remote repository
 - Pull is an operation to update commit changes from the remote to the local repository
+
+![Push and Pull](https://github.com/yetanothermasterylearning/git/blob/main/02.%20Git%20Introduction/Pictures/push_pull.png)

@@ -9,11 +9,16 @@
     - Layman's terms example
     - Git terminology
         - Repository
+        - Local
+        - Remote
         - Commit
         - Pull and Push
-- [Environment Setup]()
+- [Environment Setup](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup)
     - Git Installation steps
-    - Git Configuration file steps
+        - Windows
+        - Mac OS
+        - Linux OS
+    - Git Configuration file
     - ssh configuration for authentication and authorization
     - (Optional) Sourcetree tool installation
 - [Basic Git Project Flow]()
