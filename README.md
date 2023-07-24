@@ -37,6 +37,7 @@
         - git commit
         - git push
     - Git ignore file
+    - Assignment
 - [Branch Concept]()
     - What is a branch?
     - why we need a branch?
@@ -65,5 +66,5 @@
         - git checkout
         - git reset
 - [Miscellaneous](https://github.com/yetanothermasterylearning/Core-Java/tree/main/Miscellaneous)
-    1. Managemen multiple Java versions in Mac OS without external tools
+    1. Managemen multiple git configs based
     2. Uninstall JDK from Mac OS

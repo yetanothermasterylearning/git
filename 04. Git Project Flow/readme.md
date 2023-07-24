@@ -16,6 +16,7 @@
     - git commit
     - git push
 - Git ignore file
+- Assignment
 
 ### Creating Git and GitHub repository - end to end example ###
 - Assume you want to start a startup. You want to track your programming project file changes using ***Git*** on local computer, and your future goal is to hire more developers and collaborate on the project with them using ***GitHub***.
@@ -99,13 +100,46 @@
     - Untracked: When you create a new file to your project directory, Git considers it untracked until you explicitly tell Git to start tracking it by using init command.
     - Modified: After you make changes to a tracked file, Git recognizes that the file has been modified since the last commit. These changes are not yet committed.
     - Staged: After you make changes to a tracked file, can move the file changes to interim state befire commit. Git recognizes that the file has been modified and ready for the next commit.
-    - Committed: Once you run git commit, the changes to the tracked files in the staging area are permanently saved in the Git repository as a new commit.
+    - Committed: Once you run git commit, the changes to the tracked files in the staging area are permanently saved in the Git repository as a new commit. This state indicates that the file is safely stored in the local database.
 
 ### Git basic commands ###
-- git init
-- git status
+- git init:
+    - initialize a new Git repository in using the git init command.
+- git status:
+    -  It is helpful for quickly understanding the changes and the branch you are currently on.
 - git add
+    - To add all changes (both modified and new files) to the staging area.
+    - git add <file> to add individual files or use patterns with wildcards 
+        - e.g. `git add *.txt` to add all files with the .txt extension
 - git commit
+    - Creats a new snapshot of the project changes at that specific point in time.
+    - Each commit in Git has a unique identifier (hash) that allows you to refer to it later
+        - e.g: `git commit -m "<commit change message>"`
 - git push
+    - Send the commits and associated changes from your local repository to a remote repository.
+    - Syntax: git push -u <remote> <branch>
+        - e.g: git push -u <origin> <master>
 
 ### Git ignore file ###
+
+### Assignment ###
+#### Assignment-1 ####
+- Create a HelloWorld application using Java (or any programming language).
+    - Create a single java file which should display "Hello World"
+- Initialize git and include the program file to you repo
+- Create a .gitignore file and make sure to avoid byte code file(*.class)
+- commit the changes with message "add hello world file"
+- Create a GitHub repo and publish/push your local repository to remote repository
+
+#### Assignment-2 ####
+- Change the HelloWorld file text to "Hello Java"
+- commit the changes with message "change hello world text to hello java"
+- commit the changes with message "add hello world file"
+- Push your local repository to remote repository
+
+
+
+
+
+
+
