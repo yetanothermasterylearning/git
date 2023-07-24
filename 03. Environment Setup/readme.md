@@ -47,10 +47,6 @@
 - Go to [github](https://github.com/) and signup for your account.
 - After signup, click signin or use [github login](https://github.com/login) link.
 ![github login](https://github.com/yetanothermasterylearning/git/blob/main/03.%20Environment%20Setup/Pictures/github_login.png)
-- github open dashboard page 
-![github_dashboard](https://github.com/yetanothermasterylearning/git/blob/main/03.%20Environment%20Setup/Pictures/github_dashboard.png)
-- Click new button to creat a repository. Give repository name(e.g: firstproject) and keep other options as default
-![git_repository_creation](https://github.com/yetanothermasterylearning/git/blob/main/03.%20Environment%20Setup/Pictures/git_repository_creation.png)
 
 ### Git Configuration file ###
 - What is Git Configuration file?

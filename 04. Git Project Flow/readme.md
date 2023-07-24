@@ -18,14 +18,14 @@
 - Git ignore file
 
 ### Creating Git and GitHub repository - end to end example ###
-- Assume you want to start a startup. You want to track your coding project file changes using ***Git*** on local computer, and your future goal is to hire more developers and collaborate on the project with them using ***GitHub***.
+- Assume you want to start a startup. You want to track your programming project file changes using ***Git*** on local computer, and your future goal is to hire more developers and collaborate on the project with them using ***GitHub***.
 - You will learn the first phase steps and concepts in this chapter; and How multiple developers can work simultaneously on a project in the next chapter.
 
-> Tracking your coding project file changes using ***Git*** on local computer
 #### local repository ####
+> Tracking your programming project file changes using ***Git*** on local computer
 - Create a director with name **firstproject**
 - Navigate to **firstproject** director and create a sample **README.txt** file.
-> If you are familiar with any programming language, please create a coding file like HelloWorld.java or HelloWorld.py, or HelloWorld.c file.
+> If you are familiar with any programming language, please create a programming file like HelloWorld.java or HelloWorld.py, or HelloWorld.c file.
 - type any sample test in the file.
 - Open terminal(command tool in Windows) and Navigate to the **firstproject** director using `cd` command
 - type `git init`
@@ -43,9 +43,8 @@
 > -m option to provide the commit message.
 ![local repository](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/local_repository.png)
 
-
-> Creating ***GitHub*** account
 #### remote repository ####
+> Creating ***GitHub*** account
 - Go to [github](https://github.com/) and signup for your account. [Ref: GitHub account creation steps](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup#create-github-account).
 - Login to [github](https://github.com/). It will open a dashboard page
 ![github_dashboard](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_dashboard.png)
@@ -54,8 +53,8 @@
 - Copy the reposiotry ssh link
 ![git_repository_link](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/git_repository_link.png)<br/>
 
-> Push your project changes to ***GitHub*** and collaborate it with others
 #### Push the local changes to remote using Git command line interface ####
+> Push your project changes to ***GitHub*** and collaborate it with others
 - Go to terminal(command tool in Windows) and Navigate to the **firstproject** director using `cd` command
 - type `git remote add origin <url>` and press enter.
 - type `git push -u origin master` and press enter.
@@ -63,8 +62,8 @@
 - Refresh the Github project page.
 ![github_firstproject](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_firstproject.png)
 
-> Push your project changes to ***GitHub*** and collaborate it with others
 #### Push the local changes to remote using Sourcetree tool ####
+> Push your project changes to ***GitHub*** and collaborate it with others
 - Open Sourcetree tool and click New -> Add Existing Local Repository
 ![sourcetree_add](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/sourcetree_add.png)
 - Select **firstproject** director, it add **firstproject** repository to home screen
@@ -90,9 +89,10 @@
 - Refresh the Github project page.
 ![github_firstproject_2](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_firstproject_2.png)
 
-
+(`***`)
 > You can invite others to collabrate this project by addeding collaborators in this repository setting.
->![github_collaborators](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_collaborators.png)<br/>
+![github_collaborators](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_collaborators.png)<br/>
+(`***`)
 
 ### File states ###
 - git maintain 4 stages of File changes
