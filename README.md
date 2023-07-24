@@ -18,10 +18,11 @@
         - Windows
         - Mac OS
         - Linux OS
+    - Create GitHub account
     - Git Configuration file
     - ssh configuration for authentication and authorization
     - (Optional) Sourcetree tool installation
-- [Basic Git Project Flow]()
+- [Git Project Flow](https://github.com/yetanothermasterylearning/git/tree/main/04.%20Git%20Project%20Flow)
     - Creating Git and GitHub repository - end to end example
         - local repository
         - remote repository
