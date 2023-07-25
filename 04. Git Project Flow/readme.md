@@ -90,10 +90,10 @@
 - Refresh the Github project page.
 ![github_firstproject_2](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_firstproject_2.png)
 
-(`***`)
+***
 > You can invite others to collabrate this project by addeding collaborators in this repository setting.
 ![github_collaborators](https://github.com/yetanothermasterylearning/git/blob/main/04.%20Git%20Project%20Flow/Pictures/github_collaborators.png)<br/>
-(`***`)
+***
 
 ### File states ###
 - git maintain 4 stages of File changes
