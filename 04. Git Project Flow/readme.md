@@ -123,10 +123,10 @@
 ### Git ignore file ###
 - Sometimes, tracking the history of specific files, such as log files or build artifacts or class files in a Java project or out files in C programs, may be unnecessary. It's tedious for a developer to avoid when performing the git add operation.
 - An excellent way to ignore a file or folder or group of files by using the gitingore file.
-- gitingore file is like a rules for excluding the files and directories from the git version control mechanism. (like some secrets skips during programmer time traveling. :P)
+- gitingore file is like a rules for excluding the files and directories from the git version control mechanism. (like some secrets skips during programmer time traveling. :stuck_out_tongue:)
 - The complete file name is `.gitingore`.
 - You can also use global .gitignore files that apply to all your repositories or per-repository .gitignore files for more specific exclusions.
-- A basic .gitignore file might look like this:
+- A basic `.gitignore` file might look like this:
 ```
 # Ignore compiled files
 *.class
@@ -167,5 +167,5 @@ Note that the rules in the .gitignore file use wildcards and patterns to match f
 - commit the changes with message "add hello world file"
 - Push your local repository to remote repository
 
-#### Crazy thought ####
+#### Crazy thought :wink: ####
 - What happens if you put .gitignore in your gitignore?
