@@ -121,13 +121,43 @@
         - e.g: git push -u <origin> <master>
 
 ### Git ignore file ###
+- Sometimes, tracking the history of specific files, such as log files or build artifacts or class files in a Java project or out files in C programs, may be unnecessary. It's tedious for a developer to avoid when performing the git add operation.
+- An excellent way to ignore a file or folder or group of files by using the gitingore file.
+- gitingore file is like a rules for excluding the files and directories from the git version control mechanism. (like some secrets skips during programmer time traveling. :P)
+- The complete file name is `.gitingore`.
+- You can also use global .gitignore files that apply to all your repositories or per-repository .gitignore files for more specific exclusions.
+- A basic .gitignore file might look like this:
+```
+# Ignore compiled files
+*.class
+
+# Ignore dependencies or temporaty folders
+node_modules/
+tmp/
+
+# Ignore temporary (like log) files
+*.tmp
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+```
+Note that the rules in the .gitignore file use wildcards and patterns to match files and directories that should be ignored. 
 
 ### Assignment ###
 #### Assignment-1 ####
 - Create a HelloWorld application using Java (or any programming language).
     - Create a single java file which should display "Hello World"
 - Initialize git and include the program file to you repo
+- Compile the code and monitor all file status by using git status command
 - Create a .gitignore file and make sure to avoid byte code file(*.class)
+- Monitor the file status by using git status command. The class files should not be tracked by git.
 - commit the changes with message "add hello world file"
 - Create a GitHub repo and publish/push your local repository to remote repository
 
@@ -137,9 +167,5 @@
 - commit the changes with message "add hello world file"
 - Push your local repository to remote repository
 
-
-
-
-
-
-
+#### Crazy thought ####
+- What happens if you put .gitignore in your gitignore?
