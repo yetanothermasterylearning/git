@@ -156,8 +156,10 @@ Note that the rules in the .gitignore file use wildcards and patterns to match f
     - Create a single java file which should display "Hello World"
 - Initialize git and include the program file to you repo
 - Compile the code and monitor all file status by using git status command
+    - It should display your java file and byte code(.class) file
 - Create a .gitignore file and make sure to avoid byte code file(*.class)
 - Monitor the file status by using git status command. The class files should not be tracked by git.
+    - It should skip adding your class files.
 - commit the changes with message "add hello world file"
 - Create a GitHub repo and publish/push your local repository to remote repository
 
@@ -168,4 +170,4 @@ Note that the rules in the .gitignore file use wildcards and patterns to match f
 - Push your local repository to remote repository
 
 #### Crazy thought :wink: ####
-- What happens if you put .gitignore in your gitignore?
+- What happens if you add .gitignore in your .gitignore file?

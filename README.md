@@ -38,7 +38,7 @@
         - git push
     - Git ignore file
     - Assignment
-- [Branch Concept]()
+- [Branch Concept](https://github.com/yetanothermasterylearning/git/tree/main/05.%20Branch%20Concept)
     - What is a branch?
     - why we need a branch?
     - Creating branches locally
@@ -65,6 +65,6 @@
         - git diff
         - git checkout
         - git reset
-- [Miscellaneous](https://github.com/yetanothermasterylearning/Core-Java/tree/main/Miscellaneous)
-    1. Managemen multiple git configs based
-    2. Uninstall JDK from Mac OS
+- [Miscellaneous]()
+    1. Managemen multiple git users
+    2. Uninstall Git
