@@ -37,7 +37,7 @@
 - Open a terminal or command prompt in the directory where your Git repository is located.
 - use ```git checkout <existing_branchname>``` to checkout an existing branch
 
-#### Creating branch and checkout in local ####
+#### Creating a branch and checkout in local ####
 - Open a terminal or command prompt in the directory where your Git repository is located.
 - use ```git checkout -b <new_branchname>``` to checkout to a new branch
 
