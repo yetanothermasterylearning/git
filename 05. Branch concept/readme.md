@@ -18,12 +18,12 @@
 - You plan to decorate a stage, bring a cake, and arrange excellent food. 
 - You got a fantastic idea that you can share the work with friends. Assume You can work on decorating the stage and request friend "A" to collect the cake and friend "B" to collect the food. 
 - Each person works independently and finishes the party. 
-![branch example](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20Concept/Pictures/branch_example.png)
+![branch example](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/branch_example.png)
 - Similar way, you create a project plan with the required features
 - Allocate the work to developers
 - Individual developers can work independently by creating an individual branch
 - At the end, you can merge all changes to a master/main branch(the code)
-![branch example](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20Concept/Pictures/git_branch_example.png)
+![branch example](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/branch_example.png)
 
 #### Why we need a branch? ####
 - Branches allow multiple people to work on the same project at the same time without interfering with each other's work.
