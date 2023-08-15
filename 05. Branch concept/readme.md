@@ -23,7 +23,7 @@
 - Allocate the work to developers
 - Individual developers can work independently by creating an individual branch
 - At the end, you can merge all changes to a master/main branch(the code)
-![branch example](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/branch_example.png)
+![branch example](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/git_branch_example.png)
 
 #### Why we need a branch? ####
 - Branches allow multiple people to work on the same project at the same time without interfering with each other's work.

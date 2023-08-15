@@ -38,7 +38,7 @@
         - git push
     - Git ignore file
     - Assignment
-- [Branch Concept](https://github.com/yetanothermasterylearning/git/tree/main/05.%20Branch%20Concept)
+- [Branch Concept](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept)
     - What is a branch?
     - why we need a branch?
     - Creating branches locally
