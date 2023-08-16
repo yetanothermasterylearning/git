@@ -1,11 +1,14 @@
 ## Git Branch Concept ##
 - What is a branch?
+- Layman's terms example
 - Why do we need a branch?
-- Creating branches locally
-- Checkout a branch
-- Merging a branch
-- Delete a branch
-- Branch naming standard approach
+- Creating a branch in local
+- Checkout a branch in local
+- Creating a branch and checkout in local
+- display all branches in local
+- Delete a branch in local
+- Merging a branch 
+- Branch naming approach
 - Assignment
 
 #### What is a branch? ####
@@ -69,46 +72,52 @@
 ![branch_merge](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/branch_merge.png)
 > by default git merge follow fast forward merge operaion. more details in upcoming chapters
 
-#### Branch naming standard approach ####
+#### Branch naming approach ####
 - here are some commonly used standards and best practices for naming Git branches.
 	- Main Development Branch: 
-		main, master, or develop. 
+		- main, master, or develop. 
 
 	- Feature Branches:
-		Format: feature/<feature-name>
-		Example: feature/user-details-api
+		- Format: feature/<feature-name>
+		- Example: feature/user-details-api
 
 	- Bug Fix Branches:
-		Format: bugfix/<bugshortdescription-name>
-		Example: bugfix/user-authentication-timeout
+		- Format: bugfix/<bugshortdescription-name>
+		- Example: bugfix/user-authentication-timeout
 
 	- Hotfix Branches (for critical production fixes):
-		Format: hotfix/<hostfix-name>
-		Example: hotfix/rollback-vip-configuration
+		- Format: hotfix/<hostfix-name>
+		- Example: hotfix/rollback-vip-configuration
 
 	- Release Branches (preparing for a new release):
-		Format: release/version-number
-		Example: release/2.0.0
+		- Format: release/version-number
+		- Example: release/2.0.0
 
 	- Personal or Experimental Branches:
-		Format: <username>/<short-description>
-		Example: vinay/refactor-api
+		- Format: <username>/<short-description>
+		- Example: vinay/refactor-api
 
 	- Integration or Staging Branches:
-		Format: integration, staging, or testing
+		- Format: integration, staging, or testing
 
 	- Documentation Branches:
-		Format: docs/<short-description>
-		Example: docs/update-api-documentation
+		- Format: docs/<short-description>
+		- Example: docs/update-api-documentation
 
 	- Dependency Update Branches:
-		Format: deps/library-name-version-update
-		Example: deps/react-17-update
+		- Format: deps/library-name-version-update
+		- Example: deps/react-17-update
 
 ### Assignment ###
 #### Assignment-1 ####
+- follow branch naming standard approach and Create a feature branch for user authentication
 
 #### Assignment-2 ####
+- follow branch naming standard approach and Create a bug fix branch for json parsing error type cast bug
+- add code changes to readme.md file
+
+#### Assignment-3 ####
+- delete the bug fix branch and observe the difference between -d and -D options
 
 #### Crazy thought :wink: ####
 

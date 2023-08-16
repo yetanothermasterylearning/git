@@ -40,12 +40,16 @@
     - Assignment
 - [Branch Concept](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept)
     - What is a branch?
-    - why we need a branch?
-    - Creating branches locally
-    - Checkout a branch
-    - Merging a branch
-    - Delete a branch
-    - Branch naming standard approach
+    - Layman's terms example
+    - Why do we need a branch?
+    - Creating a branch in local
+    - Checkout a branch in local
+    - Creating a branch and checkout in local
+    - display all branches in local
+    - Delete a branch in local
+    - Merging a branch 
+    - Branch naming approach
+    - Assignment
 - [Real world multiple users example]()
     - Real world multiple users Working on a single project
     - Merging a branch to master
