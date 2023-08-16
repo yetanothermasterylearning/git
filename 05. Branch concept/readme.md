@@ -8,6 +8,7 @@
 - display all branches in local
 - Delete a branch in local
 - Merging a branch 
+- Branch operations using SourceTree
 - Branch naming approach
 - Assignment
 
@@ -71,6 +72,20 @@
 ```git merge <branch name>```
 ![branch_merge](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/branch_merge.png)
 > by default git merge follow fast forward merge operaion. more details in upcoming chapters
+
+#### Branch operations using SourceTree ####
+- Creating a branch and checkout in local
+![sourcetree_create_branch](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/sourcetree_create_branch.png)
+![sourcetree_create_branch_2](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/sourcetree_create_branch_2.png)
+- display all branches in local
+![sourcetree_display_branches](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/sourcetree_display_branches.png)
+- Delete a branch in local
+![sourcetree_delete_a_branch](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/sourcetree_delete_a_branch.png)
+- Merging a branch 
+	- Switch to the target branch (here master)
+	![sourcetree_checkout_master](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/sourcetree_checkout_master.png)
+	- Apply merge
+	![sourcetree_merge_a_branch](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept/Pictures/sourcetree_merge_a_branch.png)
 
 #### Branch naming approach ####
 - here are some commonly used standards and best practices for naming Git branches.

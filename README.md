@@ -48,6 +48,7 @@
     - display all branches in local
     - Delete a branch in local
     - Merging a branch 
+    - Branch operations using SourceTree
     - Branch naming approach
     - Assignment
 - [Real world multiple users example]()
