@@ -5,7 +5,7 @@
 - They track the history of modifications made to files, allowing users to easily revert to previous versions, compare changes, and merge modifications from different sources.
 - The primary purpose of a version control system is to keep a historical record of changes made to a project's files or source code. 
 - It allows developers to work on different features or bug fixes concurrently without directly affecting each other's work.
-![Version Control System](https://github.com/yetanothermasterylearning/git/blob/main/01.%20Introduction/Pictures/version_control_system.png)
+![Version Control System](./Pictures/version_control_system.png)
 
 ### Why do we need a Version Control System? ###
 - Just as we store digital pictures, emails, and resumes in file format, we also store software components such as code files for Java, C, C++, and Python, infrastructure elements like ARM templates, Terraform, and Cloudformation, and configuration files in formats like XML and YAML. To manage changes to these files, a system is necessary.
