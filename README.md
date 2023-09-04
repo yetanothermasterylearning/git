@@ -1,5 +1,9 @@
 ## Git Crash Course ##
 
+Most engineers favor **Git** as their preferred distributed version control system for their projects. Git allows you to store multiple versions of project files and directories, enabling you to revert to an earlier one in case of an issue. Since they are distributed, it streamlines collaboration for dev teams. What makes Git so crucial for many projects?
+
+After completing this hands-on tutorial, you will have a clear understanding of the **Git** and **GitHub**.
+
 - [Introduction](https://github.com/yetanothermasterylearning/git/tree/main/01.%20Introduction)
     - What is a Version Control System?
     - Why do we need a Version Control System?
@@ -30,7 +34,7 @@
         - modified
         - staged
         - committed
-    - Git basic commands
+    - Git workflow commands
         - git init
         - git status
         - git add
@@ -51,7 +55,7 @@
     - Branch operations using SourceTree
     - Branch naming approach
     - Assignment
-- [Real world multiple users example]()
+- [Real world multiple users/Team example]()
     - Real world multiple users Working on a single project
     - Merging a branch to master
     - Merge conflict with an example
@@ -59,17 +63,22 @@
 - [Real world special/corner cases]()
     - Undo a git commit
     - Reset git head to old commit
+    - Merge vs Rebase
 - [Git commands reference]()
     - Git commands
         - git init
         - git status
         - git add
+        - git diff
         - git commit
         - git push
         - git log
-        - git diff
+        - git show
+        - git branch
         - git checkout
+          - New branch from current commit
+          - New branch from older commit
         - git reset
 - [Miscellaneous]()
-    1. Managemen multiple git users
-    2. Uninstall Git
+  - Management of multiple git users
+  - Uninstall Git
