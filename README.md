@@ -4,11 +4,11 @@ Most engineers favor **Git** as their preferred distributed version control syst
 
 After completing this hands-on tutorial, you will have a clear understanding of the **Git** and **GitHub**.
 
-- [Introduction](https://github.com/yetanothermasterylearning/git/tree/main/01.%20Introduction)
+- [Introduction](./01.%20Introduction/)
     - What is a Version Control System?
     - Why do we need a Version Control System?
     - What are the different version control systems?
-- [Git Introduction](https://github.com/yetanothermasterylearning/git/tree/main/02.%20Git%20Introduction)
+- [Git Introduction](./02.%20Git%20Introduction)
     - What is Git?
     - Layman's terms example
     - Git terminology
@@ -17,7 +17,7 @@ After completing this hands-on tutorial, you will have a clear understanding of 
         - Remote
         - Commit
         - Pull and Push
-- [Environment Setup](https://github.com/yetanothermasterylearning/git/tree/main/03.%20Environment%20Setup)
+- [Environment Setup](./03.%20Environment%20Setup)
     - Git Installation steps
         - Windows
         - Mac OS
@@ -26,7 +26,7 @@ After completing this hands-on tutorial, you will have a clear understanding of 
     - Git Configuration file
     - ssh configuration for authentication and authorization
     - (Optional) Sourcetree tool installation
-- [Git Project Flow](https://github.com/yetanothermasterylearning/git/tree/main/04.%20Git%20Project%20Flow)
+- [Git Project Flow](./04.%20Git%20Project%20Flow)
     - Creating Git and GitHub repository - end to end example
         - local repository
         - remote repository
@@ -42,28 +42,31 @@ After completing this hands-on tutorial, you will have a clear understanding of 
         - git push
     - Git ignore file
     - Assignment
-- [Branch Concept](https://github.com/yetanothermasterylearning/git/blob/main/05.%20Branch%20concept)
+- [Branch Concept](./05.%20Branch%20concept)
     - What is a branch?
     - Layman's terms example
     - Why do we need a branch?
     - Creating a branch in local
-    - Checkout a branch in local
+    - Checkout an existing branch in local
     - Creating a branch and checkout in local
     - display all branches in local
     - Delete a branch in local
     - Merging a branch 
     - Branch operations using SourceTree
+    - Merge Conflict
     - Branch naming approach
+    - Branch vs HEAD
     - Assignment
-- [Real world multiple users/Team example]()
+- [Real world multiple users/Team example](./06.%20Git%20Team%20Usage/)
     - Real world multiple users Working on a single project
     - Merging a branch to master
-    - Merge conflict with an example
+      - Fast forward vs no fast forward
+    - Merge conflict
         - How to resolve merge conflict
+    - Merge vs Rebase
 - [Real world special/corner cases]()
     - Undo a git commit
     - Reset git head to old commit
-    - Merge vs Rebase
 - [Git commands reference]()
     - Git commands
         - git init
@@ -79,6 +82,7 @@ After completing this hands-on tutorial, you will have a clear understanding of 
           - New branch from current commit
           - New branch from older commit
         - git reset
-- [Miscellaneous]()
-  - Management of multiple git users
+- [Miscellaneous](./Miscellaneous/)
+  - Inviting collaborators to a personal repository
+  - Management of multiple git user accounts on a single machine
   - Uninstall Git
