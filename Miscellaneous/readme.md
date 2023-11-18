@@ -1,7 +1,6 @@
 ## Miscellaneous
 - Inviting collaborators to a personal repository
 - Management of multiple git user accounts on a single machine
-- Uninstall Git
 
 ## Inviting collaborators to a personal repository
 > If you're working on a team, the admin will provide the organization Git repository access. It doesn't require a collaborator invite to each individual repository.

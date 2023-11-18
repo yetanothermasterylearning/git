@@ -63,7 +63,6 @@ After completing this hands-on tutorial, you will have a clear understanding of 
       - Fast forward vs no fast forward
     - Merge conflict
         - How to resolve merge conflict
-    - Merge vs Rebase
 - [Real world special/corner cases]()
     - Undo a git commit
     - Reset git head to old commit
@@ -85,4 +84,3 @@ After completing this hands-on tutorial, you will have a clear understanding of 
 - [Miscellaneous](./Miscellaneous/)
   - Inviting collaborators to a personal repository
   - Management of multiple git user accounts on a single machine
-  - Uninstall Git

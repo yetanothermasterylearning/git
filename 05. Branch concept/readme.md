@@ -9,6 +9,7 @@
 - Delete a branch in local
 - Merging a branch 
 - Branch operations using SourceTree
+- Merge Conflict
 - Branch naming approach
 - Branch vs HEAD
 - Assignment
@@ -82,15 +83,14 @@
 
 ## Merging a branch
 - Once a branch code changes are ready to be integrated into the main codebase or any other branch. You can apply a merge operation to move code changes from your branch to main/master branch or any other branch.
-- Switch to the target branch (branch where you want to receive the code)
+- To merge ***branch_a*** with another ***branch_b***. first checkout ***branch_b*** and run merge command ***branch_a***
+- Here, we merge our current branch with master branch. Switch to the target branch (branch where you want to receive the code)
 ```git checkout master``` 
-- use the git merge command followed by the name of the target branch. by default git merge follow fast forward merge operaion.
+- use the git merge command followed by the name of the target branch. by default git merge follow **fast forward** merge operaion.
 ```git merge <branch name>```
 ![branch_merge](./Pictures/branch_merge.png)
 ![branch_merge_view](./Pictures/branch_merge_view.png)
 - After merge push the master branch to remote
-
-> While working on real projects, first merge the master/developer branch to your branch. Resolve merge conflicts; merge your branch back to the master/developer branch. More details on merge conflict resolution will be in the upcoming chapter.
 
 ## Branch operations using SourceTree
 - Creating a branch and checkout in local
@@ -107,6 +107,10 @@
 	![sourcetree_merge_a_branch](./Pictures/sourcetree_merge_a_branch.png)
 - push master branch
 ![sourcetree_push_master](./Pictures/sourcetree_push_master.png)
+
+## Merge Conflict
+- When the same file is modified in different branches, Git raises a **conflict** to avoid data loss.
+> While working on real projects, first merge the master/developer branch to your branch. Resolve merge conflicts; merge your branch back to the master/developer branch. More details on merge conflict resolution will be in the upcoming chapter.
 
 ## Branch naming approach
 - here are some commonly used standards and best practices for naming Git branches.
@@ -155,5 +159,5 @@
 - Create a file name user_service.md or UserService.java (any program file)
 - Add some lines of text/code
 - push your branch to remote
-- Merge your feature branch changes to master/developer branch
+- in Local, Merge your feature branch changes to master/developer branch
 - push master/developer branch to remote
