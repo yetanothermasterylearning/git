@@ -60,8 +60,9 @@ You have multiple GitHub accounts, one for personal work and the second one for 
   - Configure the default git username and email using the git config command in the terminal at your user directory location. Use the local git config file for individual accounts.
   - I am using "yetanothermasterylearning" as default and individual user account under account name folder and keep the project under the corresponding folders(you can imagine adam and bill folder like personal and work folders)
   ![gitconfigfiles](./Pictures/gitconfigfiles.png)
-  - usually git ssh url pattern follows like git@github.com:<account-username>/<repository-name>.git
+  - usually git ssh url pattern follows like ```git@github.com:<account-username>/<repository-name>.git```
   - Replace the host name(here: github.com) with the hostname value from the ssh config.
+  </br>
   for example:
   ```
   # Account 1
@@ -80,5 +81,3 @@ You have multiple GitHub accounts, one for personal work and the second one for 
   ![collabration_invitation](./Pictures/collabration_invitation.png)
     Push the code:
   ![bill_project_push](./Pictures/bill_project_push.png)
-
-## uninstall git
